@@ -1,0 +1,10 @@
+.pagination{
+    justify-content: flex-end;
+    li button{
+        border: 1px solid #ddd;
+        font-weight: bold;        
+    }
+    li.p-2{
+        color: #ccc;
+    }
+}

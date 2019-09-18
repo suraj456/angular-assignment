@@ -1,0 +1,25 @@
+
+
+<div class="row pt-5">
+    <div class="col-md-8 offset-md-2">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="inbox-navigation">
+                  <app-inbox-navigation-pane></app-inbox-navigation-pane>
+                </div>
+              </div>
+              <div class="col-md-9">
+                <app-inbox [rows]="inbox$ | async"></app-inbox>
+              </div>        
+        </div>        
+    </div>  
+  <!-- <div class="col-md-4">
+      <div class="inbox-navigation">
+        <app-inbox-navigation-pane></app-inbox-navigation-pane>
+      </div>
+    </div>
+    <div class="col-md-8">
+      <app-inbox [rows]="inbox$ | async"></app-inbox>
+    </div> -->
+</div>
+
